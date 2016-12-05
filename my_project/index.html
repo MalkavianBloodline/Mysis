@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title></title>
+    </head>
+    <body ng-app='app'>
+        <div ng-init="getData()" ng-controller="listController">
+            <input type="file" id="file" multiple />
+            <form id=form method=POST ng-submit="submit()"></form>
+            <!--<ul ng-repeat="detail in details">
+                <li>
+                    <a href="{{detail.url}}">{{detail.url}}</a>
+                </li>
+                <li>
+                    {{detail.description}}
+                </li>
+                <li>
+                    {{detail.author}}
+                </li>
+            </ul>
+            <form method=POST ng-submit="submit()">
+
+                <label for="lien">Lien :
+                    <input type="url" id="lien" ng-model="detail.url" placeholder="http://"/>
+                </label>
+                {{detail.url}}
+                <br><br>
+                <label for="description">Description :
+                    <textarea id="description" ng-model="detail.description"></textarea>
+                </label>
+                {{detail.description}}
+                <br><br>
+                <label for="auteur">Auteur :
+                    <input type="text" id="auteur" ng-model="detail.author"></input>
+                </label>
+                {{detail.author}}
+                <p>{{detail}}</p>
+                <input type="submit" id="submit" value="Submit" />
+                <p>{{details}}</p>
+                
+            </form>-->
+        </div>
+        <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.0/angular.min.js"></script>
+        <script src="script.js"></script>
+    </body>
+</html>
